@@ -1,0 +1,34 @@
+
+.about{
+    color: white;
+   
+    width: 61%;
+    margin: auto;
+    /* border: 1px solid white; */
+    margin-top: 150px;
+}
+
+.about>h1{
+    border-bottom: 2px solid red;
+    width: 100px;
+    margin: auto;
+}
+
+.intro{
+    display: flex;
+    /* width: 61%; */
+    margin: auto;
+    text-align: left;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.intro div{
+    width: 450px;
+}
+
+.intro>p{
+  text-align: center;
+  font-size: 20px;
+}

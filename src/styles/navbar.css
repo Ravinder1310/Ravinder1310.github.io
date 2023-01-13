@@ -1,0 +1,35 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    color: white;
+}
+
+.links{
+    font-size: 25px;
+    display: flex;
+    gap: 25px;
+}
+
+.link{
+    color:'white';
+    text-decoration:'none';
+    color: white;
+}
+
+.resume{
+    font-size: 25px;
+    color: white;
+}
+
+@media screen and (max-width: 892px) {
+     .links{
+        display: none;
+     }
+
+     .resume{
+        display: none;
+     }
+  }

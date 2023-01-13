@@ -1,4 +1,4 @@
-
+import "../styles/skills.css"
 
 export const Skills = () => {
     const images = [
@@ -14,15 +14,15 @@ export const Skills = () => {
     ];
 
     return (
-        <div style={{marginTop:'100px'}}>
-            <h1  style={{color:"white",borderBottom:'2px solid red',width:'100px',margin:'auto'}}>Skills</h1>
-        <div style={{width:'60%',margin:'auto',display:'grid',gridTemplateColumns:'repeat(3,1fr)',justifyContent:'space-between'}}>
+        <div className="skills">
+           <h1>Skills</h1>
+           <div className="slills-image">
            {
             images.map((el)=>{
-                return <img style={{width:'110px',height:'80px'}} src={el} alt="Error"/>
+                return <img src={el} alt="Error"/>
             })
            }
-        </div>
+           </div>
         </div>
     )
 }

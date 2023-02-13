@@ -3,8 +3,8 @@ import "../styles/profile.css"
 
 export const Profile = () => {
     return (
-        <>
-        <div className="profile">
+        <div id="Home">
+        <div className="profile" >
             <img className="image" src={image} alt="Error"/>
           <div className="card1">
             <p>Hi, My name is__</p>
@@ -13,6 +13,6 @@ export const Profile = () => {
             <button>Resume </button>
           </div>
         </div>
-        </>
+        </div>
     )
 }

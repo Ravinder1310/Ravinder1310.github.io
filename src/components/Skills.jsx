@@ -1,28 +1,68 @@
+import { Box } from "@chakra-ui/react"
 import "../styles/skills.css"
 
-export const Skills = () => {
-    const images = [
-        "https://aakarshpatel84.github.io/static/media/html.2ba4fabc69a89a8f71e6.png",
-        "https://aakarshpatel84.github.io/static/media/css.69a82c2d9e45c933a9cb.png",
-        "https://aakarshpatel84.github.io/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-        "https://aakarshpatel84.github.io/static/media/react.0cf951a69d8e58f83f9d.png",
-        "https://aakarshpatel84.github.io/static/media/node.952a9ea986dcfa5229ad.png",
-        "https://aakarshpatel84.github.io/static/media/mongo.2a1528ddc31d4ce8518d.png",
-        "https://aakarshpatel84.github.io/static/media/redux.010fcccb3cd77a85a1f7.png",
-        "https://aakarshpatel84.github.io/static/media/github.3b9e32903aa89111875d.png",
-        "https://aakarshpatel84.github.io/static/media/typescript.bb13ebd9561a6ee645c2.png"
-    ];
+const images = [
+    {
+        img:"../Images/skills/html_logo-removebg-preview.png",
+        title:"HTML"
+    },
+    {
+        img:"../Images/skills/css_logo-removebg-preview.png",
+        title:"CSS"
+    },
+    {
+        img:"../Images/skills/jS_logo2.png",
+        title:"JAVASCRIPT"
+    },
+    {
+        img:"../Images/skills/react_logo-removebg-preview.png",
+        title:"REACT"
+    },
+    {
+        img:"../Images/skills/redux_logo-removebg-preview.png",
+        title:"REDUX"
+    },
+    {
+        img:"../Images/skills/nodejs_logo-removebg-preview.png",
+        title:"NODE JS"
+    },
+    {
+        img:"../Images/skills/mongodb_logo-removebg-preview.png",
+        title:"MONGO DB"
+    },
+    {
+        img:"../Images/skills/ts_logo.png",
+        title:"TYPESCRIPT"
+    },
+    {
+        img:"../Images/skills/github_logo-removebg-preview.png",
+        title:"GITHUB"
+    },
+    {
+        img:"../Images/skills/firebase_logo-removebg-preview.png",
+        title:"FIREBASE"
+    },
+    {
+        img:"../Images/skills/bootstrap_logo-removebg-preview.png",
+        title:"BOOTSTRAP"
+    }
+]
 
+export const Skills = () => {
     return (
-        <div className="skills">
-           <h1>Skills</h1>
-           <div className="slills-image">
-           {
-            images.map((el)=>{
-                return <img src={el} alt="Error"/>
-            })
-           }
-           </div>
-        </div>
+        <Box color={'white'} m="auto" mt="220px" w={"60%"} id="Skills" fontStyle={"Loren"}>
+            <h1 style={{fontSize:"35px",textDecoration:"underline",textDecorationColor:"red",margin:"auto"}}>Skills</h1>
+            <Box className="skills">
+               {
+                images.map(({img,title})=>{
+                     return  <div className="skillsCard"  style={{display:"grid",justifyContent:"center"}}>
+                        <img className="skills_img" src={img} alt="Error"/>
+                        <p>{title}</p>
+                        </div>
+                    
+})
+               }
+            </Box>
+        </Box>
     )
 }

@@ -3,8 +3,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 20px;
-    color: white;
+    padding: 10px 20px;
+    color: rgb(236, 208, 208);
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: rgb(58, 9, 103);
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+}
+
+li{
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li:hover{
+    cursor: pointer;
 }
 
 .links{

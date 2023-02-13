@@ -5,6 +5,7 @@
     justify-content:center;
     gap:40px;
     margin-top:80px;
+    z-index: 0;
     /* border: 1px solid red; */
 }
 

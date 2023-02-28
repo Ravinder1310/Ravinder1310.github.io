@@ -1,7 +1,11 @@
 .App {
   text-align: center;
-  background-color: darkslateblue;
-  
+  background-color: black;
+  font-family: "lorem";
+  /* background-image: url("../public/Background_08_preview.mp4");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
 }
 
 .App-logo {

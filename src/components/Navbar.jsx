@@ -6,6 +6,9 @@ import Box from '@mui/material/Box';
 import "../styles/navbar.css";
 import {Link} from "react-scroll";
 import {HamburgerIcon,CloseIcon } from '@chakra-ui/icons'
+import { PlacementExample } from './hamburger';
+// import { Resume } from './Resume';
+import { Resume2 } from './resume2';
 
 export const Navbar = () => {
     const navdata=[
@@ -14,24 +17,32 @@ export const Navbar = () => {
 
         },
         {
-            name:"About"
+            name:"About Me"
            },
            {
             name:"Skills"
    
            },
            {
-            name:"Projects"
+            name:"Github"
+           },
+           {
+            name:"Project"
    
            },
            {
-            name:"Contacts"
+            name:"Contact"
    
            }
     ]
     return ( 
-        <div className='navbar'>
+        <div className='navbar1'>
+           
+            <div className='navbar'>
            <h1 style={{fontFamily:"cursive",fontSize:"35px"}}>Ravinder Kumar</h1>
+           <div className='hamb'>
+                   <PlacementExample/> 
+            </div>
            <div className='links'>
            <ul>
               {
@@ -43,7 +54,8 @@ export const Navbar = () => {
               }
              </ul>
            </div>
-              <a className='resume' href='#' >Resume</a>
+              <a className='resume' href=''><Resume2/></a>
+         </div>
         </div>
     )
 }

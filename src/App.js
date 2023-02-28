@@ -12,6 +12,7 @@ function App() {
      <Navbar/>
      <Profile/>
      <Home/>
+     {/* <ContactForm/> */}
     </div>
   );
 }

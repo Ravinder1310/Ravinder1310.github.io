@@ -1,0 +1,132 @@
+.contact{
+    margin: auto;
+    width: 55%;
+    text-align: center;
+    margin-top: 170px;
+    /* border: 1px solid red; */
+   
+}
+
+.contact>h1{
+    font-size: 30px;
+    color: white;
+}
+
+.Contact_divider{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    padding: 50px 50px;
+    box-shadow: rgb(249, 250, 251) 0px 2px 4px 0px, rgb(246, 248, 249) 0px 2px 16px 0px;
+}
+
+.inputFields{
+    /* border: 3px solid blue; */
+    width: 50%;
+}
+
+.contact_card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_card>input{
+  width: 85%;
+  height: 51px;
+  padding-left: 30px;
+  border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.contact_card>img{
+    width:15%;
+    height: 51px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.social{
+    color: white;
+    width: 50%;
+}
+
+.social>h1{
+    font-size: 25px;
+}
+
+.social_img{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.social_img>a>img{
+    width: 60px;
+    /* border-radius: 50%; */
+    /* margin-left: 15px; */
+}
+
+.inputFields>button{
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.inputFields>button:hover{
+    color: black;
+    background-color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .Contact_divider {
+        display: block;
+    }
+    .social{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .inputFields{
+        width: 100%;
+    }
+    .contact_card>input{
+        height: 51px;
+        padding-left: 30px;
+      }
+
+  }
+
+  @media screen and (max-width: 580px) {
+   
+    .social_img{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .contact{
+        width: 90%;
+    }
+    
+  }
+
+  @media screen and (max-width: 640px) {
+   
+
+    .contact{
+        width: 70%;
+    }
+
+    /* .inputFields{
+        padding: 0px 0px;
+    } */
+    .Contact_divider{
+        padding: 20px 20px;
+    }
+    
+  }

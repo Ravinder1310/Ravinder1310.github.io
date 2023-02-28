@@ -5,13 +5,24 @@
      align-items: center;
      margin-top: 60px;
      z-index: 1000;
+     gap: 20px;
 }
+
+.ravinder>img{
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
 
 @media screen and (max-width: 900px) {
     .about {
         display: block;
+        width: 80%;
     }
-    .about>Box>h1{
+    .ravinder{
         text-align: center;
     }
+    
   }

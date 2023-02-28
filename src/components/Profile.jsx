@@ -1,5 +1,7 @@
-import image from "../Images/personalImage.jpg"
+import image from "../Images/slackImg.png"
 import "../styles/profile.css"
+// import { Resume } from "./Resume"
+import { Resume2 } from "./resume2"
 
 export const Profile = () => {
     return (
@@ -10,7 +12,7 @@ export const Profile = () => {
             <p>Hi, My name is__</p>
             <h1>Ravinder Kumar</h1>
             <h1>I'm a Full Stack Web Developer</h1>
-            <button>Resume </button>
+            <button><Resume2/> </button>
           </div>
         </div>
         </div>

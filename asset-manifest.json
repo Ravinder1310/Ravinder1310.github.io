@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.edd86275.css",
+    "main.css": "/static/css/main.3896079c.css",
     "main.js": "/static/js/main.778cc21a.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/giphy.gif": "/static/media/giphy.465fc5f701550cc1ce7f.gif",
@@ -8,12 +8,12 @@
     "static/media/slackImg.png": "/static/media/slackImg.ea2c2f363389f986a52c.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.edd86275.css.map": "/static/css/main.edd86275.css.map",
+    "main.3896079c.css.map": "/static/css/main.3896079c.css.map",
     "main.778cc21a.js.map": "/static/js/main.778cc21a.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edd86275.css",
+    "static/css/main.3896079c.css",
     "static/js/main.778cc21a.js"
   ]
 }

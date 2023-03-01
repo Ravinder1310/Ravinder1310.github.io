@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3896079c.css",
-    "main.js": "/static/js/main.778cc21a.js",
+    "main.css": "/static/css/main.a743ae90.css",
+    "main.js": "/static/js/main.0e3ec53f.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/giphy.gif": "/static/media/giphy.465fc5f701550cc1ce7f.gif",
     "static/media/fw19_0390_Ravinder_Kumar_Resume.pdf": "/static/media/fw19_0390_Ravinder_Kumar_Resume.2d57228afc512b61545d.pdf",
     "static/media/slackImg.png": "/static/media/slackImg.ea2c2f363389f986a52c.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.3896079c.css.map": "/static/css/main.3896079c.css.map",
-    "main.778cc21a.js.map": "/static/js/main.778cc21a.js.map",
+    "main.a743ae90.css.map": "/static/css/main.a743ae90.css.map",
+    "main.0e3ec53f.js.map": "/static/js/main.0e3ec53f.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3896079c.css",
-    "static/js/main.778cc21a.js"
+    "static/css/main.a743ae90.css",
+    "static/js/main.0e3ec53f.js"
   ]
 }

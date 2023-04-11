@@ -3,6 +3,7 @@ import { Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, useDisc
 import React from 'react'
 import { Link } from 'react-scroll';
 import { Resume2 } from './resume2';
+import "../styles/hamb.css"
 // import { Resume } from './Resume';
 
 const navdata=[
@@ -43,15 +44,18 @@ export function PlacementExample() {
           <DrawerContent backgroundColor={"black"} color="white" >
             <DrawerHeader borderBottomWidth='1px'>Ravinder Kumar</DrawerHeader>
             <DrawerBody>
-            <ul className='ul2'>
+            <ul className='ul2' style={{textAlign:"center",fontSize:"25px",display:"grid",gap:"20px",marginTop:"30px"}}>
               {
                 navdata?.map(({name},index)=>{
                     return <li key={index} style={{textDecoration:"none"}}>
+                            <div id='hamb'>
                             <Link to={name} spy={true} duration={500} smooth={true} offset={-100} onClick={onClose}>{name}</Link>
-                        </li>
+                            {/* <hr style={{color:"white",marginTop:"20px"}}/> */}
+                            </div>
+                        </li> 
                 })
               }
-              <li><Resume2/></li>
+              <li style={{border:"1px solid white",boxShadow:"rgba(253, 251, 244, 0.35) 0px 5px 15px",padding:"10px 10px"}}><Resume2/></li>
              </ul>
             </DrawerBody>
           </DrawerContent>

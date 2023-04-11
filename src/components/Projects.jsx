@@ -8,7 +8,7 @@ const projects_data = [
         video:"../images/projects/here_gig.gif",
         title:"Nearbuy clone",
         discription:"It is an e-commerce website clone of Nearbuy for best deals or offers related to resturants, salons or spas.",
-        github:'https://github.com/arpit2444/NearBuy/tree/master/nearbuy',
+        github:'https://github.com/Ravinder1310/NearBuy-clone',
         live:"https://soft-custard-9f29c0.netlify.app/",
         stacks:["React | ","Javascript | ","CSS | ","Chakra UI | "],
         responsibility:["HomePage | ", "Category page | ","Category Navbar"]
@@ -16,8 +16,8 @@ const projects_data = [
     {
         video:"../images/projects/indiaToday_gif.gif",
         title:"IndiaToday clone",
-        discription:"A news website clone of IndiaToday for the lastest news around the world.",
-        github:'https://github.com/Saket1810/Construct-week',
+        discription:"A news website clone of IndiaToday for the latest news around the world.",
+        github:'https://github.com/Ravinder1310/IndiaToday-clone',
         live:"https://bespoke-naiad-451ef2.netlify.app/index.html",
         stacks:["HTML | ","Javascript | ","CSS | "],
         responsibility:["Login page | ", "SignUp page | ","Category Section"]
@@ -26,7 +26,7 @@ const projects_data = [
         video:"../images/projects/wrike_gif.gif",
         title:"Wrike clone",
         discription:"The most powerfull work management software clone by which we can manage our projects in a team.",
-        github:'https://github.com/Ravinder1310/late-riddle-1569',
+        github:'https://github.com/Ravinder1310/Wrike-clone',
         live:"https://earnest-biscuit-2c12ec.netlify.app/",
         stacks:["HTML | ","Javascript | ","CSS | "],
         responsibility:["HomePage | ", "Product pages | ","Login Page | ","SignUp page"]
@@ -34,8 +34,8 @@ const projects_data = [
     {
         video:"../images/projects/here_gig.gif",
         title:"ZARA clone",
-        discription:"An internships platform clone, which gives interships and get ready for jobs.",
-        github:'https://github.com/shitalkumar87/moldy-care-8778',
+        discription:"This is one of the biggest international fashion companies, and it belongs to Inditex, one of the world’s largest distribution groups.",
+        github:'https://github.com/Ravinder1310/Zara-clone',
         live:"https://quiet-begonia-859735.netlify.app/",
         stacks:["HTML | ","Javascript | ","CSS | "],
         responsibility:["Navbar | ", "Product pages | "]
@@ -55,9 +55,9 @@ export const Projects = () => {
                             <img src={video} alt="Error" />
                             <h1>{title}</h1>
                             <p>{discription}</p>
-                           <p style={{marginTop:"20px",fontSize:"30px"}}>-: Tech stacks :- </p>
+                           <p style={{marginTop:"20px",fontSize:"30px"}} className="stacks">-: Tech stacks :- </p>
                            <p style={{color:"#8d8d8d",fontWeight:700,fontStyle:"bold"}}>{stacks} </p>
-                           <p style={{marginTop:"20px",fontSize:"30px"}}>-: Responsibilities :-</p>
+                           <p style={{marginTop:"20px",fontSize:"30px"}} className="stacks">-: Responsibilities :-</p>
                            <p style={{color:"#8d8d8d",fontWeight:700}}> {responsibility}</p>
                             <div style={{marginTop:"35px"}}>
                                 <Link className="proje_links" href={github} target="_blank">Github</Link>

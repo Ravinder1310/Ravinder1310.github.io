@@ -33,13 +33,13 @@ export const Tools = () => {
                 <p>GITHUB</p>
                </Box>
                
-               <Box className="skillsCard" boxShadow={"rgba(235, 221, 29, 0.979) 0px 5px 15px"}>
-                <img src="../images/skills/fire.png" alt="Error"/>
-                <p>FIREBASE</p>
+               <Box className="skillsCard" boxShadow={"rgba(36, 211, 238, 0.979) 0px 5px 15px"}>
+                <img src="../images/skills/netlify2.png" alt="Error"/>
+                <p>Netlify</p>
                </Box>
-               <Box className="skillsCard" boxShadow={"rgba(117, 19, 187, 0.979) 0px 5px 15px"}>
-                <img src="../images/skills/boot.png" alt="Error"/>
-                <p>BOOTSTRAP</p>
+               <Box className="skillsCard" boxShadow={"rgba(249, 251, 251, 0.979) 0px 5px 15px"}>
+                <img src="../images/skills/heroku2.png" alt="Error"/>
+                <p>Heroku</p>
                </Box>
                
                <Box className="skillsCard" boxShadow={"rgba(29, 132, 170, 0.979) 0px 5px 15px"}>

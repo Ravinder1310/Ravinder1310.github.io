@@ -1,4 +1,4 @@
-import image from "../Images/slackImg.png"
+import image from "../Images/DSC_6572 copy.jpg"
 import "../styles/profile.css"
 // import { Resume } from "./Resume"
 import { Resume2 } from "./resume2"
